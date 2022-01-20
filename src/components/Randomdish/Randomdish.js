@@ -19,7 +19,7 @@ const Randomdish = () => {
       </div>
       <div className='random-card'>
         {random.map(meal=>{
-          return <div>
+          return <div key={meal.strMeal}>
             <div className='card'>
             <img src={meal.strMealThumb} className='card-image'/>
             <h5>{meal.strMeal}</h5>

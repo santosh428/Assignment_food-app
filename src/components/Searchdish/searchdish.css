@@ -1,0 +1,53 @@
+
+
+.searchdish form{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.searchdish form input{
+    outline: none;
+    padding: 10px 15px;
+    font-size: larger;
+    border-radius: 5px;
+    color: orange;
+    border: 0.5px solid orange;
+}
+.searchdish form button{
+    outline: none;
+    border: none;
+    background-color: orange;
+    margin-left: 10px;
+    padding: 10px 10px;
+    font-size: medium;
+    color: white;
+    border-radius: 5px;
+}
+.searchdish form button:hover{
+    background-color:white;
+    color: orange;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.dish-grid{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.dish-card{
+    max-width: 275px;
+    max-height: 300px;
+    margin: 20px 10px;
+    display: inline-block;
+    border: 1px solid orange;
+    padding: 10px 10px;
+}
+.dish-card img{
+    width: 250px;
+    height: 250px;
+    border-bottom: 1.5px solid black;
+}
+.dish-card p{
+    font-weight: bold;
+    text-align: center;
+}

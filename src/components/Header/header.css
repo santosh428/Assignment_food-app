@@ -1,0 +1,30 @@
+.header{
+  margin-top: 30px;
+}
+
+nav{
+    background-color: orange;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  nav h2{
+   color: white;
+   padding-left: 30px;
+  }
+  .nav-list ul{
+    display: inline-flex;
+    margin-right: 50px;
+  }
+  .nav-list ul li{
+    list-style-type: none;
+    margin-right: 50px;
+    color: white;
+    font-weight: bolder;
+  }
+  .nav-list ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
